@@ -63,10 +63,6 @@ export default class CampaignNew extends Component {
                                 this.setState({ minimumContribution: event.target.value })
                             }}
                         />
-                        {/* <label>Campaign Image</label>
-                        <input type="file" onChange={event => {
-                                this.setState({ campaignImage: event.target.value })
-                            }}/> */}
                     </Form.Field>
 
                     <Message error header="Oops!" content={this.state.errorMessage} />
